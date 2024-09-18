@@ -25,15 +25,15 @@ Este proyecto implementa una biblioteca en Java que gestiona libros y revistas. 
  - Hereda de Item e implementa la interfaz Loanable. Añade el
        atributo frecuencia y redefine **showDetails()** para mostrar
        información específica sobre la revista.
-4. Métodos de la interfaz **Loanable**:
+4. *Métodos de la interfaz* **Loanable**:
  -  **checkOut()**: Imprime un mensaje indicando que la revista ha sido revisada.
  - **returnItem()**: Imprime un mensaje indicando que la revista ha sido devuelta.
-4. User:
+4. *User:*
  - Clase que representa a un usuario de la biblioteca. Tiene métodos
        para tomar prestado y devolver ítems.
  - Utiliza instanceof para verificar el tipo de ítem (libro o
        revista) y realiza las acciones correspondientes.
-5. Biblioteca:
+5. *Biblioteca*:
  -  Clase que gestiona los ítems y usuarios de la biblioteca. Permite
        añadir ítems y usuarios y listar todos los ítems.
 
@@ -50,7 +50,7 @@ Este proyecto implementa una biblioteca en Java que gestiona libros y revistas. 
 ## Retos Encontrados y Cómo Fueron Solucionados
 **Gestión de Diferentes Tipos de Ítems:** 
  - Utilización del operador *instanceo*f en el método **prestadoItem** de la  clase **User** para diferenciar entre **Book** y **Magazine**. Esto permite ejecutar código específico para cada tipo de ítem.
- 
+
 **Implementación de Interfaces y Herencia:** 
  - Implementación de la interfaz **Loanable** para manejar el préstamo y la devolución de ítems. Uso de clases abstractas y herencia para definir un comportamiento común para todos los ítems.
 **Estructura de Datos:**
