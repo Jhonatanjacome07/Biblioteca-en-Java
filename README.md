@@ -50,6 +50,7 @@ Este proyecto implementa una biblioteca en Java que gestiona libros y revistas. 
 ## Retos Encontrados y Cómo Fueron Solucionados
 **Gestión de Diferentes Tipos de Ítems:** 
  - Utilización del operador *instanceo*f en el método **prestadoItem** de la  clase **User** para diferenciar entre **Book** y **Magazine**. Esto permite ejecutar código específico para cada tipo de ítem.
+ 
 **Implementación de Interfaces y Herencia:** 
  - Implementación de la interfaz **Loanable** para manejar el préstamo y la devolución de ítems. Uso de clases abstractas y herencia para definir un comportamiento común para todos los ítems.
 **Estructura de Datos:**
